@@ -9,7 +9,8 @@ npm i bootstrap jquery popper.js
 npm i --save-dev parcel-bundler @fortawesome/fontawesome-free
 npm i -g parcel-bundler
 ```
-Для вызова приложения используется команда:
+Для сбора приложения и его последующего запуска выполните: 
 
 ```parcel index.html
 ```
+Теперь откройте http://localhost:1234/ в браузере.
