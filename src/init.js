@@ -60,15 +60,11 @@ const init = () => {
          state.list.sort((a, b) => a.temp > b.temp ? 1 : -1);
          const imgSort = document.querySelector('.icon-sort-down');
          imgSort.setAttribute('class', 'icon-sort-up');
-         //top.setAttribute('class', 'new-sort-arrow-up');
-         //low.setAttribute('class', 'new-sort-arrow-down');
        }
      else {
          state.list.sort((a, b) => a.temp < b.temp ? 1 : -1);
          const imgSort = document.querySelector('.icon-sort-up');
          imgSort.setAttribute('class', 'icon-sort-down');
-         //top.setAttribute('class', 'sort-arrow-up');
-         //low.setAttribute('class', 'sort-arrow-down');
        }
        state.flag = !state.flag
         render(state.list);
