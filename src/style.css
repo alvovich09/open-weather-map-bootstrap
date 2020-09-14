@@ -1,0 +1,38 @@
+ .del {
+    width: 25px;
+    height: 25px;
+    background-image: url(./img/trash.svg);
+    background-size: 100% 100%;
+    border: 0;
+    background-repeat: no-repeat;
+  }
+  
+ .icon-sort-up {
+    transform: scale(1, -1);
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/sort.svg);
+    background-size: 100% 100%;
+    border: 0;
+    margin-left: 8px;
+    background-repeat: no-repeat;
+    display: inline-block;
+  }
+
+ .icon-sort-down {
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/sort.svg);
+    background-size: 100% 100%;
+    border: 0;
+    margin-left: 8px;
+    background-repeat: no-repeat;
+    display: inline-block;
+  }
+  
+  .table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 2px;
+  }

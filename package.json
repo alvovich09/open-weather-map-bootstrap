@@ -1,0 +1,24 @@
+{
+  "name": "weathertestbootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "eslint": "^7.8.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "keywords": [],
+  "description": ""
+}
