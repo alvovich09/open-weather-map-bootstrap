@@ -34,7 +34,7 @@ const init = () => {
        e.preventDefault();
        const formData = new FormData(e.target);
        const city = formData.get('city');
-       const url = (`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=5fbfe39e449774757ff0d800cbb8453d`);
+       const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=5fbfe39e449774757ff0d800cbb8453d`;
        fetch(url)
           .then((response) => {
             const result = response.json();
