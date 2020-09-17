@@ -1,4 +1,4 @@
-[![frontend-project1](https://github.com/alvovich09/open-weather-map-bootstrap/workflows/open-weather-map-bootstrap/badge.svg)](https://github.com/alvovich09/open-weather-map-bootstrap/actions)
+[![frontend-project1](https://github.com/alvovich09/open-weather-map-bootstrap/workflows/CI/badge.svg)](https://github.com/alvovich09/open-weather-map-bootstrap/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/411061d6c22213348df4/maintainability)](https://codeclimate.com/github/alvovich09/open-weather-map-bootstrap/maintainability)
 
 Одностранчное веб-приложение, получающее данные из openweathermap.org
